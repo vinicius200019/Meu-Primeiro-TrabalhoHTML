@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Prática: Fundamentos Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorando Fundamentos Web</h1>
+        <p>Insira um ID de usuário para buscar informações via API</p>
+    </header>
+    <main>
+        <form id="userForm">
+            <label for="userId">ID do Usuário (1-10):</label>
+            <input type="number" id="userId" min="1" max="10" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="result" class="result-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
